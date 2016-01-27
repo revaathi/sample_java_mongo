@@ -1,9 +1,11 @@
 language: java
+build_image: drydock/u12javpls:tip
 
 jdk:
    - oraclejdk7
    - openjdk6
    - openjdk7
+   - oraclejdk8
 services:
    - mongodb
 script:
